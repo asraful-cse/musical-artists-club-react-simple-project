@@ -1,0 +1,51 @@
+/* __________________nav and header style CSS____________ */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+#head-line {
+  color: yellow;
+  border-radius: 10px;
+  border: 1px solid lightGray;
+  padding: 3px;
+}
+
+#head-line span {
+  color: darkorange;
+}
+
+ul li a {
+  color: rgb(255, 255, 255) !important;
+  font-weight: 700 !important;
+  transition: 1000ms;
+}
+
+ul li a:hover {
+  color: rgb(225, 228, 41) !important;
+}
+
+/* __________________header part__________________ */
+
+.header-container {
+  background-color: rgba(18, 98, 93, 0.637);
+
+}
+.header-container h1{
+  color: rgb(246, 177, 87);
+  text-transform: uppercase;
+  text-align: center;
+}
+.header-container span{
+  color: gold;
+}
+.header-container h5{
+  color: darkkhaki;
+  text-align: center;
+}

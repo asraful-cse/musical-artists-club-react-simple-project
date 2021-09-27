@@ -1,0 +1,31 @@
+/* ______________________Cart style CSS________________ */
+.card-container {
+    justify-content: start !important;
+    margin-right: 15px;
+}
+
+.added-artists {
+    border: 1px solid rgb(70, 182, 158);
+    margin-right: 20px;
+    margin-bottom: 8px;
+    background-color: rgba(9, 18, 70, 0.657);
+    border-radius: 6px;
+}
+
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.added-artists h6 {
+    margin: 25px 0px 0px 4px !important;
+    color: yellow;
+    font-size: 14px;
+}
+
+.img-size img {
+    height: 70px;
+    width: 60px;
+    border-radius: 100px !important;
+    margin: 06px 12px 5px 4px;
+}

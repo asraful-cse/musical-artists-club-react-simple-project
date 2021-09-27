@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+/* --------------------------
+       Artist part style
+  -------------------------- */
+
+.card-body p, h5, button, h6 {
+  text-align: center;
+}
+
+.artist-style img {
+  border-radius: 1000px !important;
+  max-width: 50% !important;
+  margin: 14px 88px 14px 88px;
+}
+
+.artist-style .card-style {
+  background-color: rgba(3, 58, 59, 0.897);
+  transition: 1000ms;
+}
+
+.artist-style .card-style:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+.btn-icon {
+  color: rgb(2, 40, 144);
+}
+
+.icon-color {
+  color: rgb(182, 170, 12);
+  border-radius: 10px;
+}
+.rgular-btn{
+  color: white !important;
+}
+
+/* _____________Social style part_________________ */
+
+.social-style .fab {
+  height: 40px;
+  width: 40px;
+  font-size: 30px;
+}
